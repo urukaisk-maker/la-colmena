@@ -4,6 +4,7 @@ import { Command } from 'commander';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const proyectos = JSON.parse(
@@ -59,7 +60,9 @@ program
     console.log(`  Categoría: ${p.categoria}`);
     console.log(`  Score:     ${p.score}/100`);
     console.log(`  Estrellas: ⭐ ${p.estrellas}`);
-    console.log(`  Licencia:  ${p.licencia}\n`);
+    console.log(`  Licencia:  ${p.licencia}`);
+    if (p.url) console.log(`  URL:       ${p.url}`);
+    console.log();
   });
 
 program
@@ -73,6 +76,7 @@ program
       console.log(`  ${cat.padEnd(20)} ${n}`);
     console.log();
   });
+
 program
   .command('clone <id>')
   .description('Clona un proyecto del catálogo desde GitHub')
@@ -89,10 +93,10 @@ program
       process.exit(1);
     }
     console.log(`🐝 Clonando ${p.nombre}...`);
-    const { spawnSync } = require('node:child_process');
     const r = spawnSync('git', ['clone', p.url, `${opts.dir}/${p.nombre}`], { stdio: 'inherit' });
     if (r.status === 0) console.log(`\n✅ Listo en ${opts.dir}/${p.nombre}`);
     else process.exit(1);
   });
+
 if (process.argv.length === 2) program.help();
 program.parse();
