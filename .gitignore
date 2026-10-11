@@ -4,3 +4,9 @@ npm-debug.log*
 .env
 .env.local
 *.log
+
+# Next.js en web/
+web/node_modules/
+web/.next/
+web/.vercel/
+web/out/
