@@ -1,5 +1,5 @@
 # 🐝 La Colmena
-
+colmena i                             # ✨ Menú interactivo con flechas
 [![CI](https://github.com/urukaisk-maker/la-colmena/actions/workflows/ci.yml/badge.svg)](https://github.com/urukaisk-maker/la-colmena/actions/workflows/ci.yml)
 
 CLI y hub web para explorar las mejores herramientas open-source de **vibe coding**.
