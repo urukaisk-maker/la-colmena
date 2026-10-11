@@ -73,6 +73,26 @@ program
       console.log(`  ${cat.padEnd(20)} ${n}`);
     console.log();
   });
-
+program
+  .command('clone <id>')
+  .description('Clona un proyecto del catálogo desde GitHub')
+  .option('-d, --dir <ruta>', 'Directorio destino', '.')
+  .action((id, opts) => {
+    const p = proyectos.find(x => x.id === id || x.nombre === id);
+    if (!p) {
+      console.log(`🐝 "${id}" no encontrado.`);
+      process.exit(1);
+    }
+    if (!p.url) {
+      console.log(`🐝 "${p.nombre}" sin URL en el catálogo.`);
+      console.log(`   Búscalo en: https://github.com/search?q=${encodeURIComponent(p.nombre)}`);
+      process.exit(1);
+    }
+    console.log(`🐝 Clonando ${p.nombre}...`);
+    const { spawnSync } = require('node:child_process');
+    const r = spawnSync('git', ['clone', p.url, `${opts.dir}/${p.nombre}`], { stdio: 'inherit' });
+    if (r.status === 0) console.log(`\n✅ Listo en ${opts.dir}/${p.nombre}`);
+    else process.exit(1);
+  });
 if (process.argv.length === 2) program.help();
 program.parse();
