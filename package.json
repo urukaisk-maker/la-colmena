@@ -3,25 +3,6 @@
   "version": "0.1.0",
   "description": "CLI para explorar las mejores herramientas open-source de vibe coding",
   "type": "module",
-  "bin": {
-    "colmena": "./src/index.js"
-  },
-  "scripts": {
-    "start": "node src/index.js"
-  },
-  "author": "urukaisk-maker",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^12.1.0"
-  },
-  "devDependencies": {
-    "vitest": "^4.1.11"
-  }
-{
-  "name": "la-colmena",
-  "version": "0.1.0",
-  "description": "CLI para explorar las mejores herramientas open-source de vibe coding",
-  "type": "module",
   "bin": { "colmena": "./src/index.js" },
   "scripts": {
     "start": "node src/index.js",
@@ -31,5 +12,4 @@
   "license": "MIT",
   "dependencies": { "commander": "^12.1.0" },
   "devDependencies": { "vitest": "^2.0.0" }
-}
 }
