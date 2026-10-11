@@ -164,15 +164,36 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="footer">
-        Hecho con ☕ y 🐝 · Datos de{' '}
-        <a
-          href="https://archestack.github.io/best-of-vibe-coding/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Best of Vibe Coding
-        </a>
+            <footer className="footer">
+        <p>
+          Hecho con ☕ y 🐝 por{' '}
+          <a
+            href="https://silly-boba-dc057e.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Manuel Casimiro Carrasco
+          </a>
+        </p>
+        <p style={{ marginTop: '0.5rem' }}>
+          Proyecto{' '}
+          <a
+            href="https://rad-dolphin-182dfb.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Urukais Klick
+          </a>
+          {' · '}
+          Datos de{' '}
+          <a
+            href="https://archestack.github.io/best-of-vibe-coding/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Best of Vibe Coding
+          </a>
+        </p>
       </footer>
     </>
   );
