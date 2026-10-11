@@ -1,50 +1,1071 @@
 [
-  {"id":"skills","nombre":"skills","descripcion":"Agent skills for planning, TDD, debugging and code review","categoria":"skills","score":94,"estrellas":285000,"licencia":"MIT"},
-  {"id":"ecc","nombre":"ecc","descripcion":"Skills, agents, hooks and rules that add a workflow to coding agents","categoria":"skills","score":93,"estrellas":277000,"licencia":"MIT"},
-  {"id":"superpowers","nombre":"superpowers","descripcion":"Skill library that enforces plan-then-TDD workflow in coding agents","categoria":"skills","score":89,"estrellas":297000,"licencia":"MIT"},
-  {"id":"ponytail","nombre":"ponytail","descripcion":"Prompt skill that makes coding agents write less, safer code","categoria":"skills","score":89,"estrellas":161000,"licencia":"MIT"},
-  {"id":"caveman","nombre":"caveman","descripcion":"Proxy and skill that cut token use in coding agents","categoria":"skills","score":89,"estrellas":111000,"licencia":"Apache-2.0"},
-  {"id":"ui-ux-pro-max-skill","nombre":"ui-ux-pro-max-skill","descripcion":"Design-system skill for AI coding assistants","categoria":"skills","score":88,"estrellas":135000,"licencia":"MIT"},
-  {"id":"spec-kit","nombre":"spec-kit","descripcion":"CLI and agent skills for spec-driven development","categoria":"skills","score":87,"estrellas":141000,"licencia":"MIT"},
-  {"id":"dokploy","nombre":"dokploy","descripcion":"Self-hosted PaaS for deploying apps on your own servers","categoria":"deploy","score":85,"estrellas":38000,"licencia":"custom"},
-  {"id":"codegraph","nombre":"codegraph","descripcion":"Local code knowledge graph served to coding agents over MCP","categoria":"mcp","score":80,"estrellas":74000,"licencia":"MIT"},
-  {"id":"opencode","nombre":"opencode","descripcion":"Terminal coding agent with build and plan modes","categoria":"coding-agents","score":77,"estrellas":213000,"licencia":"MIT"},
-  {"id":"ai-website-cloner-template","nombre":"ai-website-cloner-template","descripcion":"Next.js template that rebuilds a website from its URL","categoria":"app-builder","score":77,"estrellas":36000,"licencia":"MIT"},
-  {"id":"orca","nombre":"orca","descripcion":"Desktop app that runs CLI coding agents in parallel git worktrees","categoria":"coding-agents","score":75,"estrellas":89000,"licencia":"MIT"},
-  {"id":"archon","nombre":"archon","descripcion":"YAML workflow engine that runs coding agents in isolated worktrees","categoria":"coding-agents","score":73,"estrellas":24000,"licencia":"MIT"},
-  {"id":"open-code-review","nombre":"open-code-review","descripcion":"CLI that reviews Git diffs with an LLM agent","categoria":"code-review","score":73,"estrellas":46000,"licencia":"Apache-2.0"},
-  {"id":"supabase","nombre":"supabase","descripcion":"Postgres backend with auth, storage, realtime and edge functions","categoria":"backends","score":73,"estrellas":111000,"licencia":"Apache-2.0"},
-  {"id":"codex","nombre":"codex","descripcion":"OpenAI terminal coding agent that runs locally","categoria":"coding-agents","score":71,"estrellas":129000,"licencia":"Apache-2.0"},
-  {"id":"ant-design-pro","nombre":"ant-design-pro","descripcion":"React admin dashboard template on Ant Design 6 and Umi Max","categoria":"saas","score":68,"estrellas":39000,"licencia":"MIT"},
-  {"id":"gemini-cli","nombre":"gemini-cli","descripcion":"Terminal coding agent running Gemini with file, shell and MCP tools","categoria":"coding-agents","score":68,"estrellas":107000,"licencia":"Apache-2.0"},
-  {"id":"openhands","nombre":"openhands","descripcion":"Web control center for running coding agents","categoria":"coding-agents","score":68,"estrellas":91000,"licencia":"MIT"},
-  {"id":"eve-software-factory-template","nombre":"eve-software-factory-template","descripcion":"Pipeline that turns GitHub or Linear issues into reviewed draft PRs","categoria":"agents","score":65,"estrellas":1200,"licencia":"MIT"},
-  {"id":"screenshot-to-code","nombre":"screenshot-to-code","descripcion":"Turns screenshots and mockups into Tailwind, React or Vue code","categoria":"design-to-code","score":65,"estrellas":80000,"licencia":"MIT"},
-  {"id":"dokku","nombre":"dokku","descripcion":"Self-hosted mini-Heroku PaaS that deploys apps with git push","categoria":"deploy","score":65,"estrellas":32000,"licencia":"MIT"},
-  {"id":"chrome-devtools-mcp","nombre":"chrome-devtools-mcp","descripcion":"MCP server that lets coding agents drive a live Chrome","categoria":"mcp","score":64,"estrellas":53000,"licencia":"Apache-2.0"},
-  {"id":"langchain-nextjs-template","nombre":"langchain-nextjs-template","descripcion":"Next.js routes for LangChain.js chat, agents and RAG","categoria":"chat","score":63,"estrellas":2500,"licencia":"MIT"},
-  {"id":"jeecgboot","nombre":"jeecgboot","descripcion":"Java low-code platform with code generator and AI app builder","categoria":"app-builder","score":63,"estrellas":48000,"licencia":"Apache-2.0"},
-  {"id":"marketing-team-eve-template","nombre":"marketing-team-eve-template","descripcion":"eve lead agent delegating to five marketing specialists","categoria":"agents","score":59,"estrellas":450,"licencia":"MIT"},
-  {"id":"context7","nombre":"context7","descripcion":"Fresh, version-specific library docs injected into coding agent prompts","categoria":"mcp","score":57,"estrellas":63000,"licencia":"MIT"},
-  {"id":"personal-agent-template","nombre":"personal-agent-template","descripcion":"eve and Nuxt personal agent with Slack, GitHub and per-user memory","categoria":"agents","score":57,"estrellas":476,"licencia":"MIT"},
-  {"id":"azure-search-openai-demo","nombre":"azure-search-openai-demo","descripcion":"Azure RAG chat reference on AI Search and Azure OpenAI","categoria":"rag","score":56,"estrellas":7800,"licencia":"MIT"},
-  {"id":"velobase-harness","nombre":"velobase-harness","descripcion":"Next.js AI SaaS base with credits, usage billing and anti-abuse","categoria":"saas","score":56,"estrellas":609,"licencia":"MIT"},
-  {"id":"graphql-engine","nombre":"graphql-engine","descripcion":"GraphQL API layer over Postgres, MongoDB, ClickHouse and SQL Server","categoria":"backends","score":55,"estrellas":32000,"licencia":"Apache-2.0"},
-  {"id":"chatbot","nombre":"chatbot","descripcion":"Next.js chat template with Auth.js, Postgres history and AI Gateway","categoria":"chat","score":54,"estrellas":21000,"licencia":"Apache-2.0"},
-  {"id":"github-mcp-server","nombre":"github-mcp-server","descripcion":"MCP server exposing GitHub repos, issues, PRs and Actions to AI tools","categoria":"mcp","score":54,"estrellas":34000,"licencia":"MIT"},
-  {"id":"adk-recipes","nombre":"adk-recipes","descripcion":"Runnable Agent Development Kit recipes, from patterns to deployable agents","categoria":"agents","score":53,"estrellas":10000,"licencia":"Apache-2.0"},
-  {"id":"hackathon-starter","nombre":"hackathon-starter","descripcion":"Node.js and Express boilerplate with auth, API examples and AI samples","categoria":"saas","score":52,"estrellas":35000,"licencia":"MIT"},
-  {"id":"ai-town","nombre":"ai-town","descripcion":"Generative agent city simulation on Convex with Ollama by default","categoria":"agents","score":52,"estrellas":11000,"licencia":"MIT"},
-  {"id":"chat","nombre":"chat","descripcion":"Nuxt UI chat template with GitHub login and SQLite history","categoria":"chat","score":52,"estrellas":376,"licencia":"MIT"},
-  {"id":"agent-starter-react","nombre":"agent-starter-react","descripcion":"Next.js voice assistant frontend for LiveKit Agents","categoria":"voice","score":51,"estrellas":949,"licencia":"MIT"},
-  {"id":"rag-postgres-openai-python","nombre":"rag-postgres-openai-python","descripcion":"RAG over Postgres rows with hybrid search and SQL filters","categoria":"rag","score":51,"estrellas":505,"licencia":"MIT"},
-  {"id":"agent-starter-python","nombre":"agent-starter-python","descripcion":"Python voice agent on LiveKit Agents with turn detection","categoria":"voice","score":50,"estrellas":264,"licencia":"MIT"},
-  {"id":"agent-starter-node","nombre":"agent-starter-node","descripcion":"Node.js voice agent on LiveKit Agents with turn detection","categoria":"voice","score":50,"estrellas":114,"licencia":"MIT"},
-  {"id":"gemini-chatbot","nombre":"gemini-chatbot","descripcion":"Next.js chatbot template with Gemini, NextAuth and Postgres","categoria":"chat","score":50,"estrellas":1400,"licencia":"Apache-2.0"},
-  {"id":"llm-app","nombre":"llm-app","descripcion":"Pathway RAG pipeline templates that re-index live data sources","categoria":"rag","score":48,"estrellas":59000,"licencia":"MIT"},
-  {"id":"llamacoder","nombre":"llamacoder","descripcion":"Open-source Claude Artifacts clone generating React apps","categoria":"app-builder","score":48,"estrellas":7100,"licencia":"MIT"},
-  {"id":"onlook","nombre":"onlook","descripcion":"Visual editor that edits Next.js and Tailwind apps with AI","categoria":"design-to-code","score":47,"estrellas":27000,"licencia":"Apache-2.0"},
-  {"id":"open-saas","nombre":"open-saas","descripcion":"Wasp SaaS template with auth, three payment providers and OpenAI demo","categoria":"saas","score":47,"estrellas":16000,"licencia":"MIT"},
-  {"id":"chat-langchain","nombre":"chat-langchain","descripcion":"LangChain docs assistant as a Managed Deep Agent with Next.js UI","categoria":"rag","score":45,"estrellas":6500,"licencia":"MIT"},
-  {"id":"zola","nombre":"zola","descripcion":"Multi-provider chat UI on Next.js with Ollama detection and BYOK","categoria":"chat","score":33,"estrellas":1500,"licencia":"Apache-2.0"}
+  {
+    "id": "skills",
+    "nombre": "skills",
+    "descripcion": "Agent skills for planning, TDD, debugging and code review",
+    "categoria": "skills",
+    "score": 94,
+    "estrellas": 285000,
+    "licencia": "MIT",
+    "url": "https://github.com/anthropics/skills"
+  },
+  {
+    "id": "ecc",
+    "nombre": "ecc",
+    "descripcion": "Skills, agents, hooks and rules that add a workflow to coding agents",
+    "categoria": "skills",
+    "score": 93,
+    "estrellas": 277000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "superpowers",
+    "nombre": "superpowers",
+    "descripcion": "Skill library that enforces a plan-then-TDD workflow in coding agents",
+    "categoria": "skills",
+    "score": 89,
+    "estrellas": 297000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "ponytail",
+    "nombre": "ponytail",
+    "descripcion": "Prompt skill that makes coding agents write less, safer code",
+    "categoria": "skills",
+    "score": 89,
+    "estrellas": 161000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "caveman",
+    "nombre": "caveman",
+    "descripcion": "Proxy and skill that cut token use in coding agents",
+    "categoria": "skills",
+    "score": 89,
+    "estrellas": 111000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "ui-ux-pro-max-skill",
+    "nombre": "ui-ux-pro-max-skill",
+    "descripcion": "Design-system skill for AI coding assistants with searchable UI styles",
+    "categoria": "skills",
+    "score": 88,
+    "estrellas": 135000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "spec-kit",
+    "nombre": "spec-kit",
+    "descripcion": "CLI and agent skills for spec-driven development, bug fixing and idea assessment",
+    "categoria": "skills",
+    "score": 87,
+    "estrellas": 141000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-skills",
+    "nombre": "agent-skills",
+    "descripcion": "Markdown engineering skills and slash commands for AI coding agents",
+    "categoria": "skills",
+    "score": 86,
+    "estrellas": 105000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "impeccable",
+    "nombre": "impeccable",
+    "descripcion": "Design skill and linter for AI coding agents' frontend output",
+    "categoria": "skills",
+    "score": 85,
+    "estrellas": 80000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "claude-mem",
+    "nombre": "claude-mem",
+    "descripcion": "Persistent session memory plugin for Claude Code and other coding agents",
+    "categoria": "skills",
+    "score": 84,
+    "estrellas": 100000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "opencode",
+    "nombre": "opencode",
+    "descripcion": "Terminal coding agent with build and plan modes",
+    "categoria": "coding-agents",
+    "score": 77,
+    "estrellas": 213000,
+    "licencia": "MIT",
+    "url": "https://github.com/sst/opencode"
+  },
+  {
+    "id": "orca",
+    "nombre": "orca",
+    "descripcion": "Desktop app that runs CLI coding agents in parallel git worktrees",
+    "categoria": "coding-agents",
+    "score": 75,
+    "estrellas": 89000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "archon",
+    "nombre": "archon",
+    "descripcion": "YAML workflow engine that runs coding agents in isolated worktrees",
+    "categoria": "coding-agents",
+    "score": 73,
+    "estrellas": 24000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "codex",
+    "nombre": "codex",
+    "descripcion": "OpenAI's terminal coding agent that runs locally",
+    "categoria": "coding-agents",
+    "score": 71,
+    "estrellas": 129000,
+    "licencia": "Apache-2.0",
+    "url": "https://github.com/openai/codex"
+  },
+  {
+    "id": "oh-my-openagent",
+    "nombre": "oh-my-openagent",
+    "descripcion": "Terminal coding agent that runs parallel sub-agents with git-based memory",
+    "categoria": "coding-agents",
+    "score": 70,
+    "estrellas": 70000,
+    "licencia": "custom"
+  },
+  {
+    "id": "deepseek-reasoner",
+    "nombre": "deepseek-reasoner",
+    "descripcion": "Coding agent for terminal, desktop, browser and VS Code, written in Go",
+    "categoria": "coding-agents",
+    "score": 70,
+    "estrellas": 36000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "gemini-cli",
+    "nombre": "gemini-cli",
+    "descripcion": "Terminal coding agent running Gemini with file, shell and MCP tools",
+    "categoria": "coding-agents",
+    "score": 68,
+    "estrellas": 107000,
+    "licencia": "Apache-2.0",
+    "url": "https://github.com/google-gemini/gemini-cli"
+  },
+  {
+    "id": "openhands",
+    "nombre": "openhands",
+    "descripcion": "Web control center for running coding agents and scheduled automations",
+    "categoria": "coding-agents",
+    "score": 68,
+    "estrellas": 91000,
+    "licencia": "MIT",
+    "url": "https://github.com/All-Hands-AI/OpenHands"
+  },
+  {
+    "id": "openchamber",
+    "nombre": "openchamber",
+    "descripcion": "Workspace for running and reviewing OpenCode coding agents across devices",
+    "categoria": "coding-agents",
+    "score": 68,
+    "estrellas": 11000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "open-swe",
+    "nombre": "open-swe",
+    "descripcion": "LangChain coding agent that plans, implements and reviews pull requests",
+    "categoria": "coding-agents",
+    "score": 68,
+    "estrellas": 11000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "codegraph",
+    "nombre": "codegraph",
+    "descripcion": "Local code knowledge graph served to coding agents over MCP",
+    "categoria": "mcp",
+    "score": 80,
+    "estrellas": 74000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "chrome-devtools-mcp",
+    "nombre": "chrome-devtools-mcp",
+    "descripcion": "MCP server that lets coding agents drive and debug a live Chrome",
+    "categoria": "mcp",
+    "score": 64,
+    "estrellas": 53000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "codebase-memory-mcp",
+    "nombre": "codebase-memory-mcp",
+    "descripcion": "MCP server that indexes codebases into a queryable knowledge graph",
+    "categoria": "mcp",
+    "score": 62,
+    "estrellas": 46000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "context7",
+    "nombre": "context7",
+    "descripcion": "Fresh, version-specific library docs injected into coding agent prompts",
+    "categoria": "mcp",
+    "score": 57,
+    "estrellas": 63000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "github-mcp-server",
+    "nombre": "github-mcp-server",
+    "descripcion": "MCP server exposing GitHub repos, issues, PRs and Actions to AI tools",
+    "categoria": "mcp",
+    "score": 54,
+    "estrellas": 34000,
+    "licencia": "MIT",
+    "url": "https://github.com/github/github-mcp-server"
+  },
+  {
+    "id": "cli-anything",
+    "nombre": "cli-anything",
+    "descripcion": "Generates command-line wrappers so AI agents can drive desktop software",
+    "categoria": "mcp",
+    "score": 43,
+    "estrellas": 52000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "mcp-typescript-template",
+    "nombre": "mcp-typescript-template",
+    "descripcion": "Express and Effect template for a stateless remote MCP server",
+    "categoria": "mcp-chat",
+    "score": 60,
+    "estrellas": 58,
+    "licencia": "MIT"
+  },
+  {
+    "id": "template-mcp-server",
+    "nombre": "template-mcp-server",
+    "descripcion": "Python FastMCP server template with OAuth, OpenShift manifests and CI",
+    "categoria": "mcp-chat",
+    "score": 47,
+    "estrellas": 66,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "mcp-for-next.js",
+    "nombre": "mcp-for-next.js",
+    "descripcion": "Stateless MCP server route for a Next.js App Router app",
+    "categoria": "mcp-chat",
+    "score": 41,
+    "estrellas": 373,
+    "licencia": "MIT"
+  },
+  {
+    "id": "openai-apps-sdk-examples",
+    "nombre": "openai-apps-sdk-examples",
+    "descripcion": "Example MCP servers and widgets for ChatGPT apps on the Apps SDK",
+    "categoria": "mcp-chat",
+    "score": 32,
+    "estrellas": 2400,
+    "licencia": "MIT"
+  },
+  {
+    "id": "mcp-forge",
+    "nombre": "mcp-forge",
+    "descripcion": "Go MCP server template with OAuth discovery and JWT validation",
+    "categoria": "mcp-chat",
+    "score": 24,
+    "estrellas": 98,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "langchain-nextjs-template",
+    "nombre": "langchain-nextjs-template",
+    "descripcion": "Next.js routes for LangChain.js chat, agents, structured output and RAG",
+    "categoria": "chat",
+    "score": 63,
+    "estrellas": 2500,
+    "licencia": "MIT"
+  },
+  {
+    "id": "chatbot",
+    "nombre": "chatbot",
+    "descripcion": "Next.js chat template with Auth.js, Postgres history and AI Gateway models",
+    "categoria": "chat",
+    "score": 54,
+    "estrellas": 21000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "chat",
+    "nombre": "chat",
+    "descripcion": "Nuxt UI chat template with GitHub login, SQLite history and AI Gateway",
+    "categoria": "chat",
+    "score": 52,
+    "estrellas": 376,
+    "licencia": "MIT"
+  },
+  {
+    "id": "gemini-chatbot",
+    "nombre": "gemini-chatbot",
+    "descripcion": "Next.js chatbot template defaulting to Gemini with NextAuth and Postgres",
+    "categoria": "chat",
+    "score": 50,
+    "estrellas": 1400,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "claude-quickstarts",
+    "nombre": "claude-quickstarts",
+    "descripcion": "Independent Claude API starter projects, one folder per pattern",
+    "categoria": "chat",
+    "score": 48,
+    "estrellas": 18000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "twitterbio",
+    "nombre": "twitterbio",
+    "descripcion": "Single-form Next.js text generator streaming from Together AI",
+    "categoria": "chat",
+    "score": 45,
+    "estrellas": 1800,
+    "licencia": "MIT"
+  },
+  {
+    "id": "ai-chat",
+    "nombre": "ai-chat",
+    "descripcion": "Laravel 12 chat starter streaming replies through Prism to eight providers",
+    "categoria": "chat",
+    "score": 36,
+    "estrellas": 384,
+    "licencia": "MIT"
+  },
+  {
+    "id": "zola",
+    "nombre": "zola",
+    "descripcion": "Multi-provider chat UI on Next.js with Ollama detection and BYOK",
+    "categoria": "chat",
+    "score": 33,
+    "estrellas": 1500,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "openai-chatkit-advanced-samples",
+    "nombre": "openai-chatkit-advanced-samples",
+    "descripcion": "ChatKit feature demos with FastAPI backends and React frontends",
+    "categoria": "chat",
+    "score": 31,
+    "estrellas": 660,
+    "licencia": "MIT"
+  },
+  {
+    "id": "openai-chatkit-starter-app",
+    "nombre": "openai-chatkit-starter-app",
+    "descripcion": "Minimal self-hosted and managed OpenAI ChatKit reference apps",
+    "categoria": "chat",
+    "score": 23,
+    "estrellas": 883,
+    "licencia": "MIT"
+  },
+  {
+    "id": "azure-search-openai-demo",
+    "nombre": "azure-search-openai-demo",
+    "descripcion": "Azure RAG chat reference on AI Search and Azure OpenAI",
+    "categoria": "rag",
+    "score": 56,
+    "estrellas": 7800,
+    "licencia": "MIT",
+    "url": "https://github.com/Azure-Samples/azure-search-openai-demo"
+  },
+  {
+    "id": "rag-postgres-openai-python",
+    "nombre": "rag-postgres-openai-python",
+    "descripcion": "RAG over Postgres rows with hybrid search and SQL filters",
+    "categoria": "rag",
+    "score": 51,
+    "estrellas": 505,
+    "licencia": "MIT"
+  },
+  {
+    "id": "llm-app",
+    "nombre": "llm-app",
+    "descripcion": "Pathway RAG pipeline templates that re-index live data sources",
+    "categoria": "rag",
+    "score": 48,
+    "estrellas": 59000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "chat-langchain",
+    "nombre": "chat-langchain",
+    "descripcion": "LangChain docs assistant as a Managed Deep Agent with Next.js UI",
+    "categoria": "rag",
+    "score": 45,
+    "estrellas": 6500,
+    "licencia": "MIT"
+  },
+  {
+    "id": "chat-with-your-data-solution-accelerator",
+    "nombre": "chat-with-your-data-solution-accelerator",
+    "descripcion": "Azure RAG chat app that answers from your documents with citations",
+    "categoria": "rag",
+    "score": 44,
+    "estrellas": 1200,
+    "licencia": "MIT"
+  },
+  {
+    "id": "llm-answer-engine",
+    "nombre": "llm-answer-engine",
+    "descripcion": "Perplexity-style Next.js answer engine over Brave search results",
+    "categoria": "rag",
+    "score": 41,
+    "estrellas": 5000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "azure-search-openai-javascript",
+    "nombre": "azure-search-openai-javascript",
+    "descripcion": "TypeScript RAG on Azure AI Search with separate indexer and search",
+    "categoria": "rag",
+    "score": 41,
+    "estrellas": 322,
+    "licencia": "MIT"
+  },
+  {
+    "id": "nextjs-openai-doc-search",
+    "nombre": "nextjs-openai-doc-search",
+    "descripcion": "Build-time embeddings of your MDX docs into Supabase pgvector",
+    "categoria": "rag",
+    "score": 40,
+    "estrellas": 1700,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "supabase-auth-ssr",
+    "nombre": "SupabaseAuthWithSSR",
+    "descripcion": "Claude chat on Next.js 16 with Supabase auth, pgvector RAG and cost dashboards",
+    "categoria": "rag",
+    "score": 39,
+    "estrellas": 397,
+    "licencia": "MIT"
+  },
+  {
+    "id": "natural-language-postgres",
+    "nombre": "natural-language-postgres",
+    "descripcion": "Next.js text-to-SQL over Postgres with auto-selected charts",
+    "categoria": "rag",
+    "score": 32,
+    "estrellas": 326,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "eve-software-factory-template",
+    "nombre": "eve-software-factory-template",
+    "descripcion": "Pipeline that turns GitHub or Linear issues into reviewed draft PRs",
+    "categoria": "agents",
+    "score": 65,
+    "estrellas": 1200,
+    "licencia": "MIT"
+  },
+  {
+    "id": "marketing-team-eve-template",
+    "nombre": "marketing-team-eve-template",
+    "descripcion": "eve lead agent delegating to five marketing specialists with approval gates",
+    "categoria": "agents",
+    "score": 59,
+    "estrellas": 450,
+    "licencia": "MIT"
+  },
+  {
+    "id": "personal-agent-template",
+    "nombre": "personal-agent-template",
+    "descripcion": "eve and Nuxt personal agent with Slack, GitHub, Linear and per-user memory",
+    "categoria": "agents",
+    "score": 57,
+    "estrellas": 476,
+    "licencia": "MIT"
+  },
+  {
+    "id": "adk-recipes",
+    "nombre": "adk-recipes",
+    "descripcion": "Runnable Agent Development Kit recipes, from patterns to deployable agents",
+    "categoria": "agents",
+    "score": 53,
+    "estrellas": 10000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "ai-town",
+    "nombre": "ai-town",
+    "descripcion": "Generative agent city simulation on Convex with Ollama by default",
+    "categoria": "agents",
+    "score": 52,
+    "estrellas": 11000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "knowledge-agent-template",
+    "nombre": "knowledge-agent-template",
+    "descripcion": "Nuxt knowledge agent that greps a synced snapshot repo instead of embedding",
+    "categoria": "agents",
+    "score": 48,
+    "estrellas": 1100,
+    "licencia": "MIT"
+  },
+  {
+    "id": "open-tag",
+    "nombre": "open-tag",
+    "descripcion": "Slack and Teams knowledge agent on LangGraph and CopilotKit Channels",
+    "categoria": "agents",
+    "score": 47,
+    "estrellas": 1300,
+    "licencia": "MIT"
+  },
+  {
+    "id": "react-agent",
+    "nombre": "react-agent",
+    "descripcion": "Minimal Python LangGraph ReAct agent with Tavily, ready for Studio",
+    "categoria": "agents",
+    "score": 47,
+    "estrellas": 852,
+    "licencia": "MIT"
+  },
+  {
+    "id": "azure-ai-travel-agents",
+    "nombre": "azure-ai-travel-agents",
+    "descripcion": "Travel-agency multi-agent sample using MCP servers in four languages",
+    "categoria": "agents",
+    "score": 45,
+    "estrellas": 483,
+    "licencia": "MIT"
+  },
+  {
+    "id": "openai-cua-sample-app",
+    "nombre": "openai-cua-sample-app",
+    "descripcion": "Computer-use agent loops for Playwright browsers and PyAutoGUI desktops",
+    "categoria": "agents",
+    "score": 44,
+    "estrellas": 1900,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-chat-ui",
+    "nombre": "agent-chat-ui",
+    "descripcion": "Next.js chat frontend for any LangGraph server with interrupts and artifacts",
+    "categoria": "agent-ui",
+    "score": 45,
+    "estrellas": 3200,
+    "licencia": "MIT"
+  },
+  {
+    "id": "open-generative-ui",
+    "nombre": "OpenGenerativeUI",
+    "descripcion": "Chat interface that answers with 3D models, charts, calculators and maps",
+    "categoria": "agent-ui",
+    "score": 45,
+    "estrellas": 2500,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-ui",
+    "nombre": "agent-ui",
+    "descripcion": "Next.js chat frontend for Agno AgentOS with tool calls and reasoning",
+    "categoria": "agent-ui",
+    "score": 40,
+    "estrellas": 1900,
+    "licencia": "MIT"
+  },
+  {
+    "id": "stockbot-on-groq",
+    "nombre": "stockbot-on-groq",
+    "descripcion": "Groq chatbot answering with TradingView widgets via AI SDK generative UI",
+    "categoria": "agent-ui",
+    "score": 24,
+    "estrellas": 1500,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "assistant-ui-stockbroker",
+    "nombre": "assistant-ui-stockbroker",
+    "descripcion": "assistant-ui frontend and LangGraph.js stockbroker agent with approvals",
+    "categoria": "agent-ui",
+    "score": 13,
+    "estrellas": 281,
+    "licencia": "MIT"
+  },
+  {
+    "id": "openai-structured-outputs-samples",
+    "nombre": "openai-structured-outputs-samples",
+    "descripcion": "Three Next.js samples driving UI from schema-constrained OpenAI outputs",
+    "categoria": "agent-ui",
+    "score": 11,
+    "estrellas": 685,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-react",
+    "nombre": "agent-starter-react",
+    "descripcion": "Next.js voice assistant frontend for LiveKit Agents",
+    "categoria": "voice",
+    "score": 51,
+    "estrellas": 949,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-python",
+    "nombre": "agent-starter-python",
+    "descripcion": "Python voice agent on LiveKit Agents with turn detection and simulations",
+    "categoria": "voice",
+    "score": 50,
+    "estrellas": 264,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-node",
+    "nombre": "agent-starter-node",
+    "descripcion": "Node.js voice agent on LiveKit Agents with turn detection and simulations",
+    "categoria": "voice",
+    "score": 50,
+    "estrellas": 114,
+    "licencia": "MIT"
+  },
+  {
+    "id": "voice-ui-kit",
+    "nombre": "voice-ui-kit",
+    "descripcion": "React components and templates for Pipecat voice agent frontends",
+    "categoria": "voice",
+    "score": 45,
+    "estrellas": 419,
+    "licencia": "BSD-2-Clause"
+  },
+  {
+    "id": "pipecat-examples",
+    "nombre": "pipecat-examples",
+    "descripcion": "Runnable Pipecat voice agent examples for phone, web and deployment",
+    "categoria": "voice",
+    "score": 41,
+    "estrellas": 395,
+    "licencia": "BSD-2-Clause"
+  },
+  {
+    "id": "agent-starter-android",
+    "nombre": "agent-starter-android",
+    "descripcion": "Kotlin and Jetpack Compose voice assistant client for LiveKit Agents",
+    "categoria": "voice",
+    "score": 41,
+    "estrellas": 104,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-swift",
+    "nombre": "agent-starter-swift",
+    "descripcion": "SwiftUI voice agent client for iOS, macOS and visionOS on LiveKit",
+    "categoria": "voice",
+    "score": 40,
+    "estrellas": 97,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-flutter",
+    "nombre": "agent-starter-flutter",
+    "descripcion": "Flutter voice agent client for iOS, Android, macOS and web",
+    "categoria": "voice",
+    "score": 40,
+    "estrellas": 93,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-react-native",
+    "nombre": "agent-starter-react-native",
+    "descripcion": "Expo React Native voice assistant client for LiveKit Agents",
+    "categoria": "voice",
+    "score": 36,
+    "estrellas": 84,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-starter-embed",
+    "nombre": "agent-starter-embed",
+    "descripcion": "Deprecated Next.js embed widget for a LiveKit voice agent",
+    "categoria": "voice",
+    "score": 35,
+    "estrellas": 85,
+    "licencia": "MIT"
+  },
+  {
+    "id": "ant-design-pro",
+    "nombre": "ant-design-pro",
+    "descripcion": "React admin dashboard template based on Ant Design 6 and Umi Max",
+    "categoria": "saas",
+    "score": 68,
+    "estrellas": 39000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "velobase-harness",
+    "nombre": "velobase-harness",
+    "descripcion": "Next.js AI SaaS base with credits, usage billing, workers and anti-abuse",
+    "categoria": "saas",
+    "score": 56,
+    "estrellas": 609,
+    "licencia": "MIT"
+  },
+  {
+    "id": "hackathon-starter",
+    "nombre": "hackathon-starter",
+    "descripcion": "Node.js and Express boilerplate with auth, API examples and AI samples",
+    "categoria": "saas",
+    "score": 52,
+    "estrellas": 35000,
+    "licencia": "MIT",
+    "url": "https://github.com/sahat/hackathon-starter"
+  },
+  {
+    "id": "open-saas",
+    "nombre": "open-saas",
+    "descripcion": "Wasp SaaS template with auth, three payment providers and OpenAI demo",
+    "categoria": "saas",
+    "score": 47,
+    "estrellas": 16000,
+    "licencia": "MIT",
+    "url": "https://github.com/wasp-lang/open-saas"
+  },
+  {
+    "id": "ai-fullstack-saas-boilerplate",
+    "nombre": "AI-Fullstack-SaaS-Boilerplate",
+    "descripcion": "Fastify, tRPC and React SaaS base with Better Auth and SSE chat",
+    "categoria": "saas",
+    "score": 36,
+    "estrellas": 1400,
+    "licencia": "MIT"
+  },
+  {
+    "id": "next-ai-starter",
+    "nombre": "next-ai-starter",
+    "descripcion": "Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists",
+    "categoria": "saas",
+    "score": 28,
+    "estrellas": 511,
+    "licencia": "MIT"
+  },
+  {
+    "id": "lastsaas",
+    "nombre": "lastsaas",
+    "descripcion": "Go multi-tenant SaaS kit with Stripe billing and an MCP admin server",
+    "categoria": "saas",
+    "score": 19,
+    "estrellas": 173,
+    "licencia": "MIT"
+  },
+  {
+    "id": "ai-website-cloner-template",
+    "nombre": "ai-website-cloner-template",
+    "descripcion": "Next.js template with an agent skill that rebuilds a website from its URL",
+    "categoria": "app-builder",
+    "score": 77,
+    "estrellas": 36000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "jeecgboot",
+    "nombre": "jeecgboot",
+    "descripcion": "Java low-code platform with code generator and built-in AI app builder",
+    "categoria": "app-builder",
+    "score": 63,
+    "estrellas": 48000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "llamacoder",
+    "nombre": "llamacoder",
+    "descripcion": "Open-source Claude Artifacts clone generating React apps with Llama",
+    "categoria": "app-builder",
+    "score": 48,
+    "estrellas": 7100,
+    "licencia": "MIT",
+    "url": "https://github.com/Nutlope/llamacoder"
+  },
+  {
+    "id": "open-agents",
+    "nombre": "open-agents",
+    "descripcion": "Reference app for background coding agents on Vercel sandboxes",
+    "categoria": "app-builder",
+    "score": 45,
+    "estrellas": 5800,
+    "licencia": "MIT"
+  },
+  {
+    "id": "vibesdk",
+    "nombre": "vibesdk",
+    "descripcion": "Self-hosted prompt-to-app platform on Cloudflare Workers and Durable Objects",
+    "categoria": "app-builder",
+    "score": 44,
+    "estrellas": 5400,
+    "licencia": "MIT"
+  },
+  {
+    "id": "fragments",
+    "nombre": "fragments",
+    "descripcion": "Open-source Claude Artifacts that runs AI-generated apps in sandboxes",
+    "categoria": "app-builder",
+    "score": 41,
+    "estrellas": 6400,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "coding-agent-template",
+    "nombre": "coding-agent-template",
+    "descripcion": "Run Claude Code, Codex and other coding CLIs in Vercel Sandbox",
+    "categoria": "app-builder",
+    "score": 38,
+    "estrellas": 1800,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "plate-playground-template",
+    "nombre": "plate-playground-template",
+    "descripcion": "Next.js rich-text editor template on Plate with AI commands",
+    "categoria": "editors",
+    "score": 54,
+    "estrellas": 241,
+    "licencia": "MIT"
+  },
+  {
+    "id": "editor",
+    "nombre": "editor",
+    "descripcion": "Notion-style Nuxt editor with AI completions and optional collaboration",
+    "categoria": "editors",
+    "score": 50,
+    "estrellas": 171,
+    "licencia": "MIT"
+  },
+  {
+    "id": "workflow-builder-template",
+    "nombre": "workflow-builder-template",
+    "descripcion": "Visual AI workflow builder on Workflow DevKit with real integrations",
+    "categoria": "editors",
+    "score": 36,
+    "estrellas": 1200,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "tersa",
+    "nombre": "tersa",
+    "descripcion": "Node canvas for chaining text, image and video models via AI Gateway",
+    "categoria": "editors",
+    "score": 25,
+    "estrellas": 1000,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-landing-zone",
+    "nombre": "agent-landing-zone",
+    "descripcion": "Azure infrastructure templates for deploying enterprise agents on Foundry",
+    "categoria": "cloud",
+    "score": 64,
+    "estrellas": 1200,
+    "licencia": "MIT"
+  },
+  {
+    "id": "fullstack-solution-template-for-agentcore",
+    "nombre": "fullstack-solution-template-for-agentcore",
+    "descripcion": "React frontend and AgentCore backend starter deployed to AWS with CDK",
+    "categoria": "cloud",
+    "score": 44,
+    "estrellas": 597,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "azurechat",
+    "nombre": "azurechat",
+    "descripcion": "Enterprise private chat on Azure OpenAI with document chat and personas",
+    "categoria": "cloud",
+    "score": 42,
+    "estrellas": 1400,
+    "licencia": "MIT"
+  },
+  {
+    "id": "openai-chat-app-quickstart",
+    "nombre": "openai-chat-app-quickstart",
+    "descripcion": "Minimal Azure OpenAI chat app with managed identity",
+    "categoria": "cloud",
+    "score": 40,
+    "estrellas": 254,
+    "licencia": "MIT"
+  },
+  {
+    "id": "get-started-with-ai-agents",
+    "nombre": "get-started-with-ai-agents",
+    "descripcion": "Azure azd template for a Foundry agent chat app with file search",
+    "categoria": "cloud",
+    "score": 33,
+    "estrellas": 374,
+    "licencia": "MIT"
+  },
+  {
+    "id": "serverless-rag-demo",
+    "nombre": "serverless-rag-demo",
+    "descripcion": "AWS CDK sample for document RAG chat and multi-agent workflows on Bedrock",
+    "categoria": "cloud",
+    "score": 33,
+    "estrellas": 223,
+    "licencia": "MIT-0"
+  },
+  {
+    "id": "openai-chat-vision-quickstart",
+    "nombre": "openai-chat-vision-quickstart",
+    "descripcion": "Quart chat app that answers questions about uploaded images via Azure OpenAI",
+    "categoria": "cloud",
+    "score": 29,
+    "estrellas": 224,
+    "licencia": "MIT"
+  },
+  {
+    "id": "agent-service-toolkit",
+    "nombre": "agent-service-toolkit",
+    "descripcion": "LangGraph agents served by FastAPI with a Streamlit chat client",
+    "categoria": "ai-api",
+    "score": 70,
+    "estrellas": 4500,
+    "licencia": "MIT"
+  },
+  {
+    "id": "fastapi-langgraph-agent-template",
+    "nombre": "fastapi-langgraph-agent-production-ready-template",
+    "descripcion": "FastAPI service for a LangGraph agent with auth, memory and tracing",
+    "categoria": "ai-api",
+    "score": 55,
+    "estrellas": 2700,
+    "licencia": "MIT"
+  },
+  {
+    "id": "full-stack-ai-agent-template",
+    "nombre": "full-stack-ai-agent-template",
+    "descripcion": "Project generator for FastAPI and Next.js apps with agents and RAG",
+    "categoria": "ai-api",
+    "score": 55,
+    "estrellas": 1900,
+    "licencia": "MIT"
+  },
+  {
+    "id": "generative-ai-project-template",
+    "nombre": "generative-ai-project-template",
+    "descripcion": "uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals",
+    "categoria": "ai-api",
+    "score": 51,
+    "estrellas": 118,
+    "licencia": "MIT"
+  },
+  {
+    "id": "nodejs-api-boilerplate",
+    "nombre": "nodejs-api-boilerplate",
+    "descripcion": "Express TypeScript CRUD API template with an LLM module generator",
+    "categoria": "ai-api",
+    "score": 31,
+    "estrellas": 164,
+    "licencia": "MIT"
+  },
+  {
+    "id": "genai-api",
+    "nombre": "genai-api",
+    "descripcion": "Hono API on Cloudflare Workers proxying Gemini with bearer auth",
+    "categoria": "ai-api",
+    "score": 28,
+    "estrellas": 111,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "react-native-ai",
+    "nombre": "react-native-ai",
+    "descripcion": "Expo chat and image app with an Express proxy for multiple LLMs",
+    "categoria": "mobile",
+    "score": 51,
+    "estrellas": 1300,
+    "licencia": "MIT"
+  },
+  {
+    "id": "extro",
+    "nombre": "extro",
+    "descripcion": "WXT and React browser extension starter with Supabase auth and AI",
+    "categoria": "mobile",
+    "score": 37,
+    "estrellas": 413,
+    "licencia": "MIT"
+  },
+  {
+    "id": "open-code-review",
+    "nombre": "open-code-review",
+    "descripcion": "CLI that reviews Git diffs with an LLM agent and line-level comments",
+    "categoria": "code-review",
+    "score": 73,
+    "estrellas": 46000,
+    "licencia": "Apache-2.0"
+  },
+  {
+    "id": "screenshot-to-code",
+    "nombre": "screenshot-to-code",
+    "descripcion": "Turns screenshots and mockups into Tailwind, React or Vue code",
+    "categoria": "design-to-code",
+    "score": 65,
+    "estrellas": 80000,
+    "licencia": "MIT",
+    "url": "https://github.com/abi/screenshot-to-code"
+  },
+  {
+    "id": "onlook",
+    "nombre": "onlook",
+    "descripcion": "Visual editor that edits Next.js and Tailwind apps with AI",
+    "categoria": "design-to-code",
+    "score": 47,
+    "estrellas": 27000,
+    "licencia": "Apache-2.0",
+    "url": "https://github.com/onlook-dev/onlook"
+  },
+  {
+    "id": "supabase",
+    "nombre": "supabase",
+    "descripcion": "Postgres backend with auth, storage, realtime and edge functions",
+    "categoria": "backends",
+    "score": 73,
+    "estrellas": 111000,
+    "licencia": "Apache-2.0",
+    "url": "https://github.com/supabase/supabase"
+  },
+  {
+    "id": "graphql-engine",
+    "nombre": "graphql-engine",
+    "descripcion": "GraphQL API layer over Postgres, MongoDB, ClickHouse and SQL Server",
+    "categoria": "backends",
+    "score": 55,
+    "estrellas": 32000,
+    "licencia": "Apache-2.0",
+    "url": "https://github.com/hasura/graphql-engine"
+  },
+  {
+    "id": "dokploy",
+    "nombre": "dokploy",
+    "descripcion": "Self-hosted PaaS for deploying apps and databases on your own servers",
+    "categoria": "deploy",
+    "score": 85,
+    "estrellas": 38000,
+    "licencia": "custom",
+    "url": "https://github.com/Dokploy/dokploy"
+  },
+  {
+    "id": "dokku",
+    "nombre": "dokku",
+    "descripcion": "Self-hosted mini-Heroku PaaS that deploys apps with git push",
+    "categoria": "deploy",
+    "score": 65,
+    "estrellas": 32000,
+    "licencia": "MIT",
+    "url": "https://github.com/dokku/dokku"
+  }
 ]
